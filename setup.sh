@@ -4,7 +4,7 @@ scriptdir=$(pwd)
 
 #pathogen setup
 mkdir -p ~/.vim/pathogen ~/.vim/autoload ~/.vim/bundle
-curl -Sso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+curl -LSso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 #vundle setup
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle

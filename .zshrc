@@ -41,12 +41,12 @@ source $ZSH/oh-my-zsh.sh
 source ~/.envrc
 
 # Gnu screen set tile to running program
-preexec() {
-  cmd=${1%% *};
-  if [[ ! ($cmd =~ 'ls|pwd|cd') ]]; then
-    echo -ne "\ek$cmd\e\\";
-  fi
-}
+# preexec() {
+#   cmd=${1%% *};
+#   if [[ ! ($cmd =~ 'ls|pwd|cd') ]]; then
+#     echo -ne "\ek$cmd\e\\";
+#   fi
+# }
 
 # Vim settings
 bindkey -v
